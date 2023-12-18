@@ -1,4 +1,4 @@
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/streamlit/demo-picazo)
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://demo-picazo.streamlit.app)
 
 # PiCazo: The GenAI/Fake Image Detector
 ![PiCazo logo](img/picazo_genai.png "PiCazo: The GenAI/Fake Image Detector")
