@@ -1,9 +1,9 @@
 from keras.preprocessing.image import load_img, img_to_array
-from tempfile import NamedTemporaryFile
 from PIL import Image
 
 import numpy as np
 import streamlit as st
+import tempfile
 import tensorflow as tf
 
 ###############################################################################
@@ -45,7 +45,7 @@ if 'classifier' not in st.session_state:
 
 # Stores file data in a temporary file and returns its file path.
 def fetch_tmp_path(file_data):
-    with NamedTemporaryFile(delete=False) as temp:
+    with tempfile.NamedTemporaryFile(delete=False) as temp:
         temp.write(file_data.read())
         temp.flush()
         return temp.name
