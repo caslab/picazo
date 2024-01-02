@@ -17,8 +17,8 @@ ALLOWED_IMG_EXTENSIONS = ['.jpg', '.jpeg',
 IMG_SIZE = (32, 32)
 
 MODEL = {
-    'LeNet-5': 'picazo_lenet_5.keras',
     'EfficientNet': 'picazo_efficientnet.keras',
+    'LeNet-5': 'picazo_lenet_5.keras',
 }
 
 LABELS_MAP = {
